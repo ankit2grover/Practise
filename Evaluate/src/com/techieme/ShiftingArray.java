@@ -1,6 +1,8 @@
 package com.techieme;
 
 public class ShiftingArray {
+	
+	// Problem : https://github.com/codingforinterviews/practice-problems/tree/master/array_rotate
 
 	public void shift_arr(int[] arr, int n, int newIndex) {
 		if (newIndex < arr.length) {
